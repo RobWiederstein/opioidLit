@@ -19,6 +19,7 @@
 #' df <- get_oida_metadata(file_names = file_names)
 #'
 #' @export
+#'
 get_oida_metadata <- function(file_names){
     #check args
     stopifnot(all(is.character(file_names)))
