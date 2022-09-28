@@ -11,4 +11,9 @@ LazyData: true
 URL: https://github.com/RobWiederstein/opioidLit
 BugReports: https://github.com/RobWiederstein/opioidLit/issues
 Imports: 
-    httr
+    httr,
+    jsonlite,
+    purrr,
+    tibble
+RoxygenNote: 7.2.1
+Roxygen: list(markdown = TRUE)
