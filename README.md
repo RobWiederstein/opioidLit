@@ -4,6 +4,8 @@
 # opioidLit <img src="man/figures/logo.png" align="right" height="139" />
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/RobWiederstein/opioidLit/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/RobWiederstein/opioidLit/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of opioidLit is to give easy access to the Opioid Industry
