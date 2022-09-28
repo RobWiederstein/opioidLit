@@ -1,11 +1,14 @@
 Package: opioidLit
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Access Opioid Industry Document Archive
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Rob Wiederstein
+Maintainer: Rob Wiederstein <khuon68@gmail.com>
+Description: The package provides wrap around functions to ease working with OIDA.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/RobWiederstein/opioidLit
+BugReports: https://github.com/RobWiederstein/opioidLit/issues
+Imports: 
+    httr
