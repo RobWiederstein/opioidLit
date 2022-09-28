@@ -21,7 +21,7 @@ According to OIDA’s
 Hopkins University in 2021. It preserves and provides permanent public
 access to previously-internal corporate documents released from opioid
 litigation and other sources. The documents shed light on the opioid
-industry during the height of the U.S. opioid crisis.” As of Sepember
+industry during the height of the U.S. opioid crisis.” As of September
 27, 2022, the archive contained 8.9 million pages and 1.5 million
 documents.
 
