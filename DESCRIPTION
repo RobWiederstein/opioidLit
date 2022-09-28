@@ -17,3 +17,6 @@ Imports:
     tibble
 RoxygenNote: 7.2.1
 Roxygen: list(markdown = TRUE)
+Suggests: 
+    spelling
+Language: en-US
