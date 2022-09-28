@@ -9,7 +9,10 @@
 #' @details
 #'
 #' Documentation for the OIDA API can be found
-#' [here](https://www.industrydocuments.ucsf.edu/wp-content/uploads/2022/02/IndustryDocumentsDataAPI_v5.pdf) The function retrieves only the metadata for a document within the archives. Documents are stored as pdfs and must be downloaded individually within the main site.
+#' [here](https://bit.ly/3E0cToo)
+#' The function retrieves only the metadata for a document within the archives.
+#' Documents are stored as pdfs and must be downloaded individually within the
+#' main site.
 #'
 #' @examples
 #' \dontrun{#Strategic Customer Group 2003 Business Plan
@@ -18,16 +21,16 @@
 #' \dontrun{# get multiple files
 #' file_names <- c("kylw0221", "frgg0230", "slwl0231")
 #' df <- get_oida_metadata(file_names = file_names)
-#' }
+#'  }
 #'
 #' @export
 #'
-get_oida_metadata <- function(file_names){
+get_oida_metadata <- function(file_names) {
     #check args
     stopifnot(all(is.character(file_names)))
     stopifnot(all(nchar(file_names) == 8))
     # function to generate links
-    create_links <- function(file_names){
+    create_links <- function(file_names) {
         base <- "https://solr.idl.ucsf.edu/solr/ltdl3/query?q="
         url <- paste0(base,
                       "id:", file_names,
@@ -35,9 +38,9 @@ get_oida_metadata <- function(file_names){
         url
     }
     # function to retrieve data
-    fetch_info <- function(links){
+    fetch_info <- function(links) {
         res <- httr::GET(url = links)
-        data = jsonlite::fromJSON(rawToChar(res$content))
+        data <- jsonlite::fromJSON(rawToChar(res$content))
         doc_md <- data$response$docs
         doc_md
     }
