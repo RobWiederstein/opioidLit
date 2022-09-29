@@ -18,5 +18,8 @@ Imports:
 RoxygenNote: 7.2.1
 Roxygen: list(markdown = TRUE)
 Suggests: 
+    knitr,
+    rmarkdown,
     spelling
 Language: en-US
+VignetteBuilder: knitr

@@ -10,7 +10,7 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of opioidLit is to give easy access to the Opioid Industry
+The goal of `opioidLit` is to give easy access to the Opioid Industry
 Document Archives (“OIDA”).
 
 ## About
@@ -27,7 +27,7 @@ documents.
 
 ## Installation
 
-You can install the development version of opioidLit like so:
+You can install the development version of `opioidLit` like so:
 
 ``` r
 # install.packages("devtools")
@@ -36,7 +36,7 @@ devtools::install_github("RobWiederstein/opioidLit/")
 
 ## Code of Conduct
 
-Please note that the opioidLit project is released with a [Contributor
+Please note that the `opioidLit` project is released with a [Contributor
 Code of
 Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
@@ -45,4 +45,4 @@ By contributing to this project, you agree to abide by its terms.
 
 G. Caleb Alexander, Lisa A. Mix, et. al., The Opioid Industry Documents
 Archive: A Living Digital Repository, 112 Am. J. of Public Health
-1126-1129, <https://doi.org/10.2105/AJPH.2022.306951>
+1126-1129 (2022) <https://doi.org/10.2105/AJPH.2022.306951>

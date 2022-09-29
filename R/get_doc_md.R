@@ -39,6 +39,7 @@ get_oida_metadata <- function(file_names) {
     }
     # function to retrieve data
     fetch_info <- function(links) {
+        #wrap in tryCatch
         res <- httr::GET(url = links)
         data <- jsonlite::fromJSON(rawToChar(res$content))
         doc_md <- data$response$docs

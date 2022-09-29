@@ -1,0 +1,66 @@
+---
+title: "Intro: Working with tibbles"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Intro: Working with tibbles}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+    collapse = TRUE,
+    comment = "#>"
+)
+```
+
+```{r setup}
+library(opioidLit)
+```
+
+## Introduction
+
+Data requests to the OIDA API are returned as tibbles.  Tibbles are special data structures that allow for lists to be nested within the column of a data frame. The `tibble` package is required to create and work with tibbles.
+
+```{r tibble-install, eval=T}
+#install.packages("tibble")
+library(tibble)
+vignette(package = "tibble")
+```
+
+## Rectangling tibbles
+
+Extracting list elements from a tibble column is informally known as "rectangling." The process requires patience and vignettes are available for assistance.
+
+```{r rectangle, eval=F}
+#install.packages("tidyr")
+#install.packages("dplyr")
+#install.packages("repurrrsive")
+#load packages
+library(tidyr)
+library(dplyr)
+library(repurrrsive)
+#load vignette in help window
+vignette("rectangle", package = "tidyr")
+```
+
+## Flattening tibbles
+
+A user may choose to work with the tibble or flatten the file to a tabular form like the more traditional and ubiquitous data frame. There are at least two choices: (1) `purrr::flatten` or (2) `jsonlite::flatten`.
+
+```{r purrr-flatten, eval=F}
+#install.packages("purrr")
+library(purrr)
+help("flatten", package = "purrr")
+```
+
+```{r jsonlite-flatten}
+#install.packages("jsonlite")
+library(jsonlite)
+help("flatten", package = "jsonlite")
+```
+
+
+## Reference
+
+Hadley Wickham and Garret Grolemund (2017). [R for Data Science-Tibbles](https://r4ds.had.co.nz/tibbles.html) (2017), O'Reilly Media.

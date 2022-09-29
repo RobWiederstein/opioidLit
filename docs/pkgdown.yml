@@ -1,6 +1,7 @@
 pandoc: '2.18'
 pkgdown: 2.0.6
 pkgdown_sha: ~
-articles: {}
-last_built: 2022-09-28T23:45Z
+articles:
+  working_with_tibbles: working_with_tibbles.html
+last_built: 2022-09-29T17:54Z
 
