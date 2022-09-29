@@ -40,3 +40,9 @@ Please note that the opioidLit project is released with a [Contributor
 Code of
 Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
+
+## References
+
+G. Caleb Alexander, Lisa A. Mix, et. al., The Opioid Industry Documents
+Archive: A Living Digital Repository, 112 Am. J. of Public Health
+1126-1129, <https://doi.org/10.2105/AJPH.2022.306951>
