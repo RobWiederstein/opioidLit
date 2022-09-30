@@ -63,4 +63,4 @@ help("flatten", package = "jsonlite")
 
 ## Reference
 
-Hadley Wickham and Garret Grolemund (2017). [R for Data Science-Tibbles](https://r4ds.had.co.nz/tibbles.html) (2017), O'Reilly Media.
+Hadley Wickham and Garret Grolemund (2017). [R for Data Science-Tibbles](https://r4ds.had.co.nz/tibbles.html), O'Reilly Media.

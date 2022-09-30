@@ -3,5 +3,8 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   working_with_tibbles: working_with_tibbles.html
-last_built: 2022-09-29T18:02Z
+last_built: 2022-09-30T14:56Z
+urls:
+  reference: https://robwiederstein.github.io/opioidLit/reference
+  article: https://robwiederstein.github.io/opioidLit/articles
 

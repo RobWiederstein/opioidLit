@@ -1,0 +1,26 @@
+url: https://robwiederstein.github.io/opioidLit/
+
+template:
+  bootstrap: 5
+
+#good practice to set these fields to make your package
+#documentation easier to find via search, rather than
+#sticking with the title and description needed by CRAN.
+home:
+  title: An R package for the Opioid Industry Document Archives
+  description: Discover documents from opioid litigation in the United States.
+
+development:
+  mode: auto
+
+reference:
+- title: "Datasets"
+  desc: >
+    Sample datasets
+  contents:
+  - oida_idx
+- title: "Retrieving Data"
+  desc: >
+    Functions for retrieving metadata
+  contents:
+  - get_oida_metadata

@@ -16,7 +16,10 @@ This function helps you retrieve document metadata from the OIDA archives.
 }
 \details{
 Documentation for the OIDA API can be found
-\href{https://www.industrydocuments.ucsf.edu/wp-content/uploads/2022/02/IndustryDocumentsDataAPI_v5.pdf}{here} The function retrieves only the metadata for a document within the archives. Documents are stored as pdfs and must be downloaded individually within the main site.
+\href{https://bit.ly/3E0cToo}{here}
+The function retrieves only the metadata for a document within the archives.
+Documents are stored as pdfs and must be downloaded individually within the
+main site.
 }
 \examples{
 \dontrun{#Strategic Customer Group 2003 Business Plan
@@ -25,6 +28,6 @@ df <- get_oida_metadata(file_names = "frgg0230")
 \dontrun{# get multiple files
 file_names <- c("kylw0221", "frgg0230", "slwl0231")
 df <- get_oida_metadata(file_names = file_names)
-}
+ }
 
 }
