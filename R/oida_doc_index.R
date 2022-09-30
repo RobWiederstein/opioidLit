@@ -60,4 +60,3 @@
 #' [website](https://www.industrydocuments.ucsf.edu/opioids/research-tools/api/)
 #'
 "oida_idx"
-
