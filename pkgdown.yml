@@ -2,8 +2,10 @@ pandoc: 2.14.2
 pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
-  working_with_tibbles: working_with_tibbles.html
-last_built: 2022-09-30T15:11Z
+  opioidLit: opioidLit.html
+  rectangling: rectangling.html
+  tibbles: tibbles.html
+last_built: 2022-09-30T18:15Z
 urls:
   reference: https://robwiederstein.github.io/opioidLit/reference
   article: https://robwiederstein.github.io/opioidLit/articles
