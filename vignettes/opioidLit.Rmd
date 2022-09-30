@@ -1,0 +1,29 @@
+---
+title: "Introduction to opioidLit"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to opioidLit}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, include = FALSE}
+library(opioidLit)
+```
+
+
+Detail an opinionated workflow from start to finish.
+
+1. Do search
+2. Find documents
+3. Get pdfs
+4. Scrape
+5. Visualize
+6. Publish
