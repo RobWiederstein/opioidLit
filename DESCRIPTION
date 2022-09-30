@@ -11,10 +11,12 @@ LazyData: true
 URL: https://github.com/RobWiederstein/opioidLit
 BugReports: https://github.com/RobWiederstein/opioidLit/issues
 Imports: 
+    dplyr,
     httr,
     jsonlite,
     purrr,
-    tibble
+    tibble,
+    tidyr
 RoxygenNote: 7.2.1
 Roxygen: list(markdown = TRUE)
 Suggests: 
