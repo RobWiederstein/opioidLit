@@ -1,8 +1,8 @@
 ---
-title: "Intro: Working with tibbles"
+title: "Working with tibbles"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Intro: Working with tibbles}
+  %\VignetteIndexEntry{Working with tibbles}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

@@ -13,6 +13,13 @@ home:
 development:
   mode: auto
 
+articles:
+- title: customize your site
+  navbar: ~
+  contents:
+  - tibbles
+  - rectangling
+
 reference:
 - title: "Datasets"
   desc: >

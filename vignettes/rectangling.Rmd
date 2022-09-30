@@ -1,0 +1,77 @@
+---
+title: "Rectangling the OIDA metadata"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Rectangling the OIDA metadata}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+### Install Library
+
+```{r setup}
+library(opioidLit)
+```
+
+
+### Load Data
+
+```{r load, warning=F, eval=F}
+data("oida_idx")
+```
+
+### Check Object
+
+```{r look}
+class(oida_idx)
+```
+
+### Convert Object
+
+```{r convert}
+oida_idx <- tibble::as_tibble(oida_idx)
+tibble::is_tibble(oida_idx)
+```
+
+### Winnow
+
+```{r data-winnow}
+# "dt" for data tibble; note the column headings as "<list>"#
+oida_idx |> 
+dplyr::filter(id == c("tnmx0093", "qpnl0052", "prmx0122")) |> 
+dplyr::select(id, tid, collection, collectioncode, type) -> dt
+dt
+```
+
+### Rectangle Collection
+
+```{r rect-collection}
+dt |> 
+    tidyr::unnest_longer(collection) -> dt1
+dt1
+```
+
+### Rectangle Collection Code
+
+```{r rect-collectioncode}
+dt1 |> 
+    tidyr::unnest_longer(collectioncode) -> dt2
+dt2
+```
+
+
+### Rectangle Type
+
+```{r rect-type}
+dt2 |> 
+    tidyr::unnest_longer(type) -> dt3
+dt3
+```
+

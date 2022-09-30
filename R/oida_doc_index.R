@@ -59,5 +59,7 @@
 #' Additional information is available on the OIDA
 #' [website](https://www.industrydocuments.ucsf.edu/opioids/research-tools/api/)
 #'
+#' @export
+#'
 "oida_idx"
 
